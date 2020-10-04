@@ -1,0 +1,35 @@
+
+
+.photo {
+    width: 29.8%;
+ 
+    height: auto;
+    /* margin: 30px 20px; */
+    margin-bottom: 30px;
+   
+}
+
+
+
+.photolist {
+   
+   margin: 30px;
+   margin-bottom: 400px;
+
+}
+
+.photolist__inner{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+
+@media (max-width:768px) {
+    .photolist__inner{
+        flex-direction: column;
+    }
+    .photo {
+        width: 100%;
+    }
+}

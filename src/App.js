@@ -5,7 +5,7 @@ import PhotoList from './container/PhotoList/PhotoList'
 function App() {
   return (
     <div className="App">
-      <header><h1 className="title">TEST APP</h1></header>
+      <header><h1 className="title">Photo Album</h1></header>
       <PhotoList/>
     </div>
   );
